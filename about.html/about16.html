@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
-<body>
     <section class="about" id="about">
   <div class="about__container">
     <p class="about__label">tradition and love</p>
     <h2 class="about__title">how it’s made?</h2>
     <div class="about__subwrapper">
+      <picture>
+        <source
+          srcset="фото десктопної корови 1х та 2х"
+          media="(min-width: 1200px)" />
+        <source
+          srcset="фото планшетної корови 1х та 2х"
+          media="(min-width: 768px)" />
+        <source
+          srcset="фото мобільної корови 1х та 2х"
+          media="(max-width: 767px)" />
+        <img
+          class="about__cow"
+          src="фото мобільної корови"
+          alt="Cow" width="501" height="501"
+          /></picture>
       <div class="about__wrapper">
         <p class="about__text">
           Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
@@ -37,5 +43,3 @@
     </div>
   </div>
 </section>
-</body>
-</html>
